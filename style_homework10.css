@@ -12,4 +12,27 @@ li {
 	text-transform: uppercase;
 	font-family: verdana;
 	font-size: 20px;
+	display: block;
+	float: left;
+}
+li:first-child {
+	background-color: red;
+}
+li:last-child {
+	background-color: orange;
+}
+li:nth-child(2) {
+	background-color: yellow;
+}
+li:nth-child(3) {
+	background-color: green;
+}
+li:nth-child(4) {
+	background-color: lightblue;
+}
+li:nth-child(5) {
+	background-color: blue;
+}
+li:nth-child(6) {
+	background-color: purple;
 }
