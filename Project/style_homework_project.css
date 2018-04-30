@@ -8,11 +8,9 @@ div.main {
 	height: 100px;
 	position: absolute;
 	border-bottom: 1px solid white;
+	text-align: center;
+}
 
-}
-.menulist {
-    display: block;
-}
 li.logo {
 	position: absolute;
 	top: 30.5px;
@@ -20,6 +18,8 @@ li.logo {
 	z-index: 100;
 	list-style-type: none; 
 	left: 200px;
+	display: block;
+	
 }
 li.menu {
 	display: block;
@@ -35,5 +35,36 @@ li.menu {
 	border-left: 1px solid #61568a;
 	list-style-type: none;
 	color: #2c70b7;
+
+}
+.basket {
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	text-align: center;
+	top: 5px;
+	position: relative;
+	left: 180px;
+
+}
+.basket img {
+	position: relative;
+	left: -1.5px;
+}
+sup {
+	z-index: 200;
+	position: absolute;
+	top: -27px;
+	left: -5px;
+	background-color: #2d70b7;
+	color: white;
+
+	border: 1px solid #2d70b7;
+	width: 10px;
+	vertical-align: center;
+	border-radius: 10px;
+	height: 10px;
+
+	
 
 }
