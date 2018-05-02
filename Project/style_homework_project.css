@@ -47,10 +47,15 @@ table {
 	border-spacing: 0;
 }
 /******************************************************************************************************************************RESET CSS**************************************************************/
-
+/******************************************************************************************************************************HEADER CSS*************************************************************/
 body {
     background-image: url(patt.png);
     
+}
+a {
+	display: block;
+	width: 177px;
+	height:39px;
 }
 .header {
 	background-color: rgba(255, 255, 255, 0.82);
@@ -58,16 +63,32 @@ body {
 	height: 100px;
 	position: absolute;
 	border-bottom: 1px solid white;
+	box-sizing: border-box;
 
 }
 
 .main {
 	width: 1170px;
 	height: 100px;
+	
+	margin: 0 auto;
+
 
 }
+.w-25 {
+	width: 25%;
+	top: 30.5px;
+	
+}
+.w-50 {
+	width: 50%;
+	top: 25px;
+}
 .col {
+	position: relative;
 	float: left;
+	
+	height: 50px;
 
 }
 
@@ -75,6 +96,16 @@ body {
 	display: block;
 	float: left;
 	height: 50px;
+	width: 142px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #2c72ba;
+	border-left: 1px solid #2b71b7;
+	box-sizing: border-box;
+	line-height: 50px;
+}
+.list li:last-child {
+	border-right: 1px solid #2b71b7;
 }
 .list:after {
 	content: "";
@@ -87,5 +118,17 @@ body {
 	display: block;
 	clear: both;
 }
+.basket {
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	position: relative;
 
+}
+.basket img {
+	position: absolute;
+	text-align: center;
+	top: 10px;
+	left: 10px;
+}
 
