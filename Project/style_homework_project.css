@@ -1,6 +1,56 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/******************************************************************************************************************************RESET CSS**************************************************************/
+
 body {
     background-image: url(patt.png);
-    margin: 0;
+    
 }
 div.main {
 	background-color: rgba(255, 255, 255, 0.82);
@@ -11,60 +61,3 @@ div.main {
 	text-align: center;
 }
 
-li.logo {
-	position: absolute;
-	top: 30.5px;
-	margin-right: 100px;
-	z-index: 100;
-	list-style-type: none; 
-	left: 200px;
-	display: block;
-	
-}
-li.menu {
-	display: block;
-	float: left;
-	font-family: verdana;
-	width: 140px;
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
-	top: 10px;
-	position: relative;
-	left: 400px;
-	border-left: 1px solid #61568a;
-	list-style-type: none;
-	color: #2c70b7;
-
-}
-.basket {
-	width: 40px;
-	height: 40px;
-	background-color: white;
-	text-align: center;
-	top: 5px;
-	position: relative;
-	left: 180px;
-
-}
-.basket img {
-	position: relative;
-	left: -1.5px;
-}
-sup {
-	z-index: 200;
-	position: absolute;
-	top: -27px;
-	left: -5px;
-	background-color: #2d70b7;
-	color: white;
-
-	border: 1px solid #2d70b7;
-	width: 10px;
-	vertical-align: center;
-	border-radius: 10px;
-	height: 10px;
-
-	
-
-}
