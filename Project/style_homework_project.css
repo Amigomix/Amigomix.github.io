@@ -150,4 +150,35 @@ a {
 	font-size: 10px;
 }
 /****************************************************************************************************************************SUBMENU********************************************************************************/
+.submenu {
+	width: 276px;
+	background-color: #2d71b8;
+	display: none;
+	position: relative;
+	left: -1px;
+	
+	
 
+}
+.submenu li {
+	float: none;
+	color: white;
+	width: 100%;
+	text-align: left;
+	padding-left: 35px;
+	
+}
+.list li:nth-child(2):hover .submenu  {
+	display: block;
+
+}
+.list li:hover {
+	background-color: #2d71b8;
+	color: white;
+
+}
+.submenu li:hover {
+	background-color: white;
+	color: #2c72ba;
+
+}
