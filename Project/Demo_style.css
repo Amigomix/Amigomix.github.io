@@ -271,12 +271,10 @@ p {
 	background-color: rgba(255,255,255,0.75);
 	border-bottom: 1px solid white;
 	text-align: center;
+	line-height: 270px;
+	position: relative;
+}
 
-}
-.d1 {
-position: relative;
-	top: 45px;
-}
 .text {
 	padding-top: 15px;
 	padding-left: 25px;
@@ -295,6 +293,7 @@ sup {
 }
 .price {
 	text-align: center;
+	position: relative;
 }
 input {
 	height: 50px;
@@ -304,9 +303,59 @@ input {
 	color: white;
 	margin-bottom: 15px;
 	border: 1px solid white;
+	position: relative;
 }
 input:hover {
 	background-color: white;
 	color: #2d71b8;
 	
+}
+
+.scope {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2d71b8;
+	position: absolute;
+	top: 10px;
+	left: 228px;
+	background-image: url("scope_blue.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	line-height: 30px;
+
+}
+.like {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2d71b8;
+	position: absolute;
+	left: 228px;
+	top: 50px;
+	background-image: url("hearth_blue.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	line-height: 30px;
+
+}
+/*.cart2 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-image: url("cart_white.png");
+	background-repeat: no-repeat;
+	top: 165px;
+	right: 55px;
+	background-position: center;
+	line-height: 30px;
+
+}*/
+.like:hover {
+	background-image: url("hearth_white.png");
+	background-color: #2d71b8;
+
+}
+.scope:hover {
+	background-image: url("scope_white.png");
+	background-color: #2d71b8;
+
 }
