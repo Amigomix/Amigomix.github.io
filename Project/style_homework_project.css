@@ -53,6 +53,7 @@ table {
 /****************************************************************************************************************************HEADER********************************************************************************/
 * {
 	box-sizing: border-box;
+
 }
 
 body {
@@ -63,6 +64,8 @@ body {
 .container {
 	width: 1170px;
 	margin: 0 auto;
+	
+	
 
 }
 .row:after {
@@ -76,6 +79,7 @@ body {
 }
 .col-md-3 {
 	width: 25%;
+	
 	
 	
 	
@@ -155,7 +159,7 @@ body {
 }
 /****************************************************************************************************************************SUBMENU********************************************************************************/
 .submenu {
-	width: 202%;
+	width: 202.5%;
 	background-color: #2d71b8;
 	display: none;
 	position: relative;
@@ -202,6 +206,7 @@ body {
 }
 .col-md-9 {
 	width: 75%;
+	
 }
 .first:after {
 	content: "\3E";
@@ -247,15 +252,7 @@ span:last-child {
 
 
 }
-.goods div:nth-child(3n+3) {
-	margin-left: 30px;
 
-}
-.goods div:nth-child(3n+1) {
-	margin-right: 30px;
-	
-
-}
 h2 {
 	position: relative;
 	top: 15px;
