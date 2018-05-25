@@ -359,3 +359,98 @@ input:hover {
 	background-color: #2d71b8;
 
 }
+/*********************************************************TOOLBAR***********************************************************************/
+
+.toolbar span {
+	padding: 0;
+}
+.device_submit input {
+	margin-top: 20px;
+}
+.device_type {
+	margin-bottom: 60px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+.device_color {
+	margin-bottom: 60px;
+	padding-left: 30px;
+}
+.device_RAM {
+	margin-bottom: 20px;
+	padding-left: 30px;
+}
+.device_submit {
+	text-align: center;
+}
+#checkbox1 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+}
+#checkbox2 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox3 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox4 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox5 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox6 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox7 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox8 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox9 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox10 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox11 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
+#checkbox12 {
+	width: 12px;
+	height: 12px;
+	margin-bottom: 20px;
+	
+}
