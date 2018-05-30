@@ -56,61 +56,62 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="toolbar">
+						<form action="" method="post">
 						<div class="device_type">
 							<h3>DEVICE TYPE</h3>
 								<div>
 									<input id="checkbox1" type="checkbox" name="">
-									<span>Laptop</span>
+									<label for="checkbox1"><span>Laptop</span></label>
 								</div>
 								<div>
 									<input id="checkbox2" type="checkbox" name="">
-									<span>Tablet</span>
+									<label for="checkbox2"><span>Tablet</span></label>
 								</div>
 						</div>
 						<div class="device_color">
 							<h3>COLOR</h3>
 								<div>
-									<input id="checkbox2" type="checkbox" name="">
-									<span>Black</span>
-								</div>
-								<div>
 									<input id="checkbox3" type="checkbox" name="">
-									<span>Red</span>
+									<label for="checkbox3"><span>Black</span></label>
 								</div>
 								<div>
 									<input id="checkbox4" type="checkbox" name="">
-									<span>Green</span>
+									<label for="checkbox4"><span>Red</span></label>
 								</div>
 								<div>
 									<input id="checkbox5" type="checkbox" name="">
-									<span>Blue</span>
+									<label for="checkbox5"><span>Green</span></label>
 								</div>
 								<div>
 									<input id="checkbox6" type="checkbox" name="">
-									<span>Orange</span>
+									<label for="checkbox6"><span>Blue</span></label>
+								</div>
+								<div>
+									<input id="checkbox7" type="checkbox" name="">
+									<label for="checkbox7"><span>Orange</span></label>
 								</div>
 						</div>
 						<div class="device_RAM">
 							<h3>RAM</h3>
 								<div>
-									<input id="checkbox7" type="checkbox" name="">
-									<span>1GB</span>
-								</div>
-								<div>
 									<input id="checkbox8" type="checkbox" name="">
-									<span>2GB</span>
+									<label for="checkbox8"><span>1GB</span></label>
 								</div>
 								<div>
 									<input id="checkbox9" type="checkbox" name="">
-									<span>4GB</span>
+									<label for="checkbox9"><span>2GB</span></label>
 								</div>
 								<div>
 									<input id="checkbox10" type="checkbox" name="">
-									<span>6GB</span>
+									<label for="checkbox10"><span>4GB</span></label>
 								</div>
 								<div>
 									<input id="checkbox11" type="checkbox" name="">
-									<span>8GB</span>
+									<label for="checkbox11"><span>6GB</span></label>
+								</div>
+								<div>
+									<input id="checkbox12" type="checkbox" name="">
+									<label for="checkbox12"><span>8GB</span></label>
 								</div>
 
 						</div>
@@ -118,12 +119,13 @@
 							<span>Show more options ...</span>
 							<input type="submit" value="SUBMIT">
 						</div>
+						</form>
 					</div>
 				</div>
 							
 				<div class="col-md-9">
 					<div class="row">
-						<div class="sitemap"><span class="first">Home page</span><span class="first">Products</span><span>Laptops and Tablets</span></div>
+						<div class="sitemap"><span class="first"><a href="">Home page</a></span><span class="first"><a href="">Products</a></span><span><a href="">Laptops and Tablets</a></span></div>
 					</div>
 					<div class="row">
 						<div class="col-md-8">
@@ -134,9 +136,9 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="device">
-							<img class="d1" src="desktop.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="desktop.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#1 Device Name</h2>
@@ -152,17 +154,17 @@
 						    <div class="price">
 						    	<h1>$599<sup>25</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input class="add_to_cart" type="submit" value="ADD TO CART">
-						    	<div class="cart2"><a href=""></a></div>
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 
 						    </div>
 						
 						</div>
 						<div class="col-md-4 centercolumn">
 							<div class="device">
-							<img class="d1" src="desktop2.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="desktop2.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#2 Device Name</h2>
@@ -178,15 +180,16 @@
 						    <div class="price">
 						    	<h1>$1250<sup>99</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input type="submit" value="ADD TO CART">
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 						    	
 						    </div>
 						</div>
 						<div class="col-md-4">
 							<div class="device">
-							<img class="d1" src="watch.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="watch.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#3 Device Name</h2>
@@ -202,7 +205,8 @@
 						    <div class="price">
 						    	<h1>$399<sup>50</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input type="submit" value="ADD TO CART">
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 						    	
 						    </div>
 						</div>
@@ -210,9 +214,9 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="device">
-							<img class="d1" src="laptop.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="laptop.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#1 Device Name</h2>
@@ -228,15 +232,16 @@
 						    <div class="price">
 						    	<h1>$599<sup>25</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input type="submit" value="ADD TO CART">
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 						    	
 						    </div>
 						</div>
 						<div class="col-md-4 centercolumn">
 							<div class="device">
-							<img class="d1" src="mp3.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="mp3.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#2 Device Name</h2>
@@ -252,15 +257,16 @@
 						    <div class="price">
 						    	<h1>$1250<sup>99</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input type="submit" value="ADD TO CART">
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 						    	
 						    </div>
 						</div>
 						<div class="col-md-4">
 							<div class="device">
-							<img class="d1" src="cellphone.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="cellphone.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#3 Device Name</h2>
@@ -276,7 +282,8 @@
 						    <div class="price">
 						    	<h1>$399<sup>50</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input type="submit" value="ADD TO CART">
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 						    	
 						    </div>
 						</div>
@@ -284,9 +291,9 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="device">
-							<img class="d1" src="tablet.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="tablet.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#1 Device Name</h2>
@@ -302,15 +309,16 @@
 						    <div class="price">
 						    	<h1>$599<sup>25</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input type="submit" value="ADD TO CART">
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 						    	
 						    </div>
 						</div>
 						<div class="col-md-4 centercolumn">
 							<div class="device">
-							<img class="d1" src="desktop2.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="desktop2.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#2 Device Name</h2>
@@ -326,15 +334,16 @@
 						    <div class="price">
 						    	<h1>$1250<sup>99</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input type="submit" value="ADD TO CART">
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 						    	
 						    </div>
 						</div>
 						<div class="col-md-4">
 							<div class="device">
-							<img class="d1" src="watch.png">
-							<div class="scope"></div>
-							<div class="like"></div>
+							<a href=""><img class="d1" src="watch.png"></a>
+							<a href=""><div class="scope"></div></a>
+							<a href=""><div class="like"></div></a>
 							</div>
 							<div class="text">
 							<h2>#3 Device Name</h2>
@@ -350,7 +359,8 @@
 						    <div class="price">
 						    	<h1>$399<sup>50</sup></h1>
 						    	<input type="submit" value="MORE DETAILS">
-						    	<input type="submit" value="ADD TO CART">
+						    	<a class="cartlink" href=""><input class="add_to_cart" type="submit" value="ADD TO CART">
+						    	<div class="cart2"></div></a>
 						    	
 						    </div>
 						</div>

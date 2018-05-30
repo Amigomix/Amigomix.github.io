@@ -196,6 +196,12 @@ body {
 .sitemap span:last-child {
 	text-decoration: underline;
 }
+.sitemap a {
+	/*text-decoration: none;
+*/	color: white;
+	font-weight: 300;
+}
+
 span {
 	padding-top: 30px;
 	color: white;
@@ -306,7 +312,7 @@ input {
 	position: relative;
 }
 input:hover {
-	background-color: white;
+	background-color: rgba(255,255,255,0.75);
 	color: #2d71b8;
 	
 }
@@ -337,7 +343,7 @@ input:hover {
 	line-height: 30px;
 
 }
-/*.cart2 {
+.cart2 {
 	width: 30px;
 	height: 30px;
 	position: absolute;
@@ -348,7 +354,10 @@ input:hover {
 	background-position: center;
 	line-height: 30px;
 
-}*/
+}
+.cartlink:hover .cart2 {
+	background-image: url("basket_blue.png");
+}
 .like:hover {
 	background-image: url("hearth_white.png");
 	background-color: #2d71b8;
@@ -360,12 +369,39 @@ input:hover {
 
 }
 /*********************************************************TOOLBAR***********************************************************************/
+.toolbar input {
+	display: none;
+}
+label {
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+label:before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid rgba(255,255,255,0.75);
+	margin: 0 5px;
 
+}
+input:checked + label:before {
+	background-color: blue;
+	border: 1px solid blue;
+}
 .toolbar span {
 	padding: 0;
 }
+.device_submit {
+	text-align: center;
+}
 .device_submit input {
+	display: inline-block;
 	margin-top: 20px;
+	position: relative;
+
+	
 }
 .device_type {
 	margin-bottom: 60px;
@@ -379,9 +415,6 @@ input:hover {
 .device_RAM {
 	margin-bottom: 20px;
 	padding-left: 30px;
-}
-.device_submit {
-	text-align: center;
 }
 #checkbox1 {
 	width: 12px;
